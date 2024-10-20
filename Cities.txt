@@ -1,0 +1,78 @@
+Hollywood,San Francisco,1
+Hollywood,Salt Lake City,1
+Hollywood,Albuquerque,3
+San Francisco,Hollywood,1
+San Francisco,Salt Lake City,2
+San Francisco,Seattle,3
+Seattle,Calgary,3
+Seattle,Helena,2
+Seattle,Salt Lake City,3
+Seattle,San Francisco,3
+Calgary,Seattle,3
+Calgary,Helena,2
+Calgary,Winnipeg,3
+Helena,Seattle,2
+Helena,Salt Lake City,1
+Helena,Denver,2
+Helena,Winnipeg,3
+Helena,Calgary,1
+Salt Lake City,Seattle,3
+Salt Lake City,San Francisco,2
+Salt Lake City,Hollywood,2
+Salt Lake City,Albuquerque,2
+Salt Lake City,Denver,2
+Salt Lake City,Helena,1
+Albuquerque,Hollywood,3
+Albuquerque,Salt Lake City,2
+Albuquerque,Denver,1
+Albuquerque,Dallas,2
+Denver,Albuquerque,1
+Denver,Salt Lake City,2
+Denver,Helena,2
+Denver,Duluth,4
+Denver,Kansas City,2
+Winnipeg,Calgary,2
+Winnipeg,Helena,3
+Winnipeg,Duluth,1
+Duluth,Winnipeg,1
+Duluth,Denver,4
+Duluth,Kansas City,2
+Duluth,Chicago,1
+Duluth,Montreal,3
+Kansas City,Dallas,1
+Kansas City,Denver,2
+Kansas City,Duluth,2
+Kansas City,Chicago,1
+Kansas City,Atlanta,3
+Dallas,Albuquerque,2
+Dallas,Kansas City,1
+Dallas,Atlanta,3
+Dallas,New Orleans,2
+Montreal,Duluth,3
+Montreal,Chicago,3
+Montreal,New York,1
+Chicago,Duluth,1
+Chicago,Montreal,3
+Chicago,New York,3
+Chicago,Washington,3
+Chicago,Atlanta,2
+Chicago,Kansas City,1
+Atlanta,New Orleans,1
+Atlanta,Dallas,3
+Atlanta,Kansas City,3
+Atlanta,Chicago,2
+Atlanta,Washington,2
+Atlanta,Miami,2
+New Orleans,Dallas,2
+New Orleans,Atlanta,1
+New Orleans,Miami,3
+New York,Montreal,1
+New York,Washington,1
+New York,Chicago,3
+Washington,New York,1
+Washington,Chicago,3
+Washington,Atlanta,2
+Washington,Miami,4
+Miami,Washington,4
+Miami,Atlanta,2
+Miami,New Orleans,3

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Root element of the POM file -->
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <!-- Model version for the POM file structure -->
+    <modelVersion>4.0.0</modelVersion>
+    
+    <!-- Group ID uniquely identifies the project, usually follows the reverse domain name notation -->
+    <groupId>com.wyattfredrickson</groupId>
+    
+    <!-- Artifact ID is the name of the project -->
+    <artifactId>exampleweightedgraph</artifactId>
+    
+    <!-- Version of the project -->
+    <version>1.0-SNAPSHOT</version>
+
+    <!-- Properties to define project-specific values -->
+    <properties>
+        <!-- JavaFX version to use for dependencies -->
+        <javafx.version>22.0.1</javafx.version>
+        <!-- Java compiler source version -->
+        <maven.compiler.source>22</maven.compiler.source>
+        <!-- Java compiler target version -->
+        <maven.compiler.target>22</maven.compiler.target>
+        <!-- Main class property, can be overridden from the command line -->
+        <mainClass>com.wyattfredrickson.Main</mainClass>
+    </properties>
+
+    <!-- Section to define the project's dependencies -->
+    <dependencies>
+        <!-- JavaFX controls dependency -->
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-controls</artifactId>
+            <version>${javafx.version}</version>
+        </dependency>
+        <!-- JavaFX FXML dependency -->
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-fxml</artifactId>
+            <version>${javafx.version}</version>
+        </dependency>
+        <!-- JavaFX Base dependency -->
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-base</artifactId>
+            <version>${javafx.version}</version>
+        </dependency>
+        <!-- JavaFX Graphics dependency -->
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-graphics</artifactId>
+            <version>${javafx.version}</version>
+        </dependency>
+        <!-- JUnit dependency for testing -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+        <!-- JavaFX Web dependency -->
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-web</artifactId>
+            <version>${javafx.version}</version>
+        </dependency>
+        <dependency>
+        <!-- Jackson JSON parser dependency -->
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.14.2</version>
+        </dependency>
+        <!-- Fractal JuliaC OSGi runtime dependency -->
+      <dependency>
+        <groupId>org.ow2.fractal.juliac.osgi</groupId>
+        <artifactId>juliac-runtime-oo-bundle</artifactId>
+        <version>2.5.1</version>
+      </dependency>
+    </dependencies>
+
+    <!-- Build section to define plugins used during the build process -->
+    <build>
+        <!-- Resources section to specify the resources directory -->
+        <resources>
+          <resource>
+            <directory>src/main/resources</directory>
+          </resource>
+        </resources>
+
+        <plugins>
+            <!-- Maven Surefire Plugin for running test runs -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.3.0</version>
+            </plugin>
+
+            <!-- Maven Compiler Plugin to compile Java code -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.11.0</version>
+                <configuration>
+                    <!-- Specify the Java version for source code -->
+                    <source>${maven.compiler.source}</source>
+                    <!-- Specify the Java version for compiled bytecode -->
+                    <target>${maven.compiler.target}</target>
+                </configuration>
+            </plugin>
+
+            <!-- JavaFX Maven Plugin to run JavaFX applications -->
+            <plugin>
+                <groupId>org.openjfx</groupId>
+                <artifactId>javafx-maven-plugin</artifactId>
+                <version>0.0.6</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <!-- Specify the main class to run the JavaFX application -->
+                    <mainClass>${mainClass}</mainClass>
+                </configuration>
+            </plugin>
+
+        </plugins>
+    </build>
+</project>
