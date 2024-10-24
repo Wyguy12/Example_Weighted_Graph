@@ -1,4 +1,4 @@
-package com.wyattfredrickson;
+package com.wyattfredrickson.WeightedGraphExample;
 import java.util.List;
 
 

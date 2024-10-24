@@ -1,0 +1,30 @@
+Chicago - Detroit - 282 miles
+Tampa - Orlando - 84 miles
+St. Paul - Detroit - 682 miles
+Orlando - Chicago - 1,160 miles
+St. Paul - Seattle - 1,668 miles
+Detroit - New York - 614 miles
+Orlando - Miami - 236 miles
+Los Angeles - San Francisco - 383 miles
+New York - Washington D.C. - 225 miles
+Dallas - Houston - 239 miles
+Boston - Philadelphia - 306 miles
+Phoenix - Las Vegas - 297 miles
+Atlanta - Charlotte - 245 miles
+Denver - Salt Lake City - 518 miles
+Portland - San Francisco - 634 miles
+Chicago - Minneapolis - 408 miles
+San Diego - Phoenix - 355 miles
+Houston - New Orleans - 347 miles
+Miami - Atlanta - 663 miles
+San Francisco - Seattle - 807 miles
+Las Vegas - Los Angeles - 270 miles
+New York - Boston - 215 miles
+Philadelphia - Pittsburgh - 305 miles
+Dallas - Austin - 195 miles
+Chicago - St. Louis - 297 miles
+Salt Lake City - Las Vegas - 421 miles
+Indianapolis - Nashville - 289 miles
+Baltimore - Richmond - 147 miles
+San Antonio - Houston - 197 miles
+Cleveland - Cincinnati - 244 miles
